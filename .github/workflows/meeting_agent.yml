@@ -30,4 +30,4 @@ jobs:
           echo '${{ secrets.GMAIL_TOKEN_JSON }}' > token.json
 
       - name: Run reminder agent
-        run: python src/send_reminders.pysss
+        run: python src/send_reminders.py
